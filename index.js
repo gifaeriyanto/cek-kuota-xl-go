@@ -5,8 +5,8 @@ require("dotenv").config();
 const spinner = ora("Open XLHome").start();
 
 (async () => {
-  let browser = await puppeteer.launch({ headless: true });
-  let page = await browser.newPage();
+  const browser = await puppeteer.launch({ headless: true });
+  const page = await browser.newPage();
   await page.setViewport({ width: 1200, height: 800 });
   await page
     .goto("http://192.168.8.1/html/home.html", {
