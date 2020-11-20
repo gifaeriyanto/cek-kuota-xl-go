@@ -1,0 +1,21 @@
+{
+  "name": "cek-kuota-xl-go",
+  "version": "1.0.0",
+  "description": "Cek kuota internet modem XL Go via CLI",
+  "author": "Gifa Eriyanto",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "ora": "^5.1.0",
+    "puppeteer": "^5.2.0"
+  },
+  "homepage": "https://github.com/gifaeriyanto/cek-kuota-xl-go#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gifaeriyanto/cek-kuota-xl-go"
+  }
+}
