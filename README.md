@@ -10,13 +10,20 @@ Pertama buat file `.env` yang isinya sebagai berikut:
 
     USERNAME=usernameModemmu
     PASSWORD=passwordModemmu
-    
+    PHONE_NUMBER=nomorXLmu
+    KK=nomorKartuKeluarga
+    NIK=nomorKTP
+
 Setelah itu jalankan perintah berikut
 
     yarn start
-    
-atau
 
-    npm start
-    
+Untuk registrasi kartu silahkan jalankan perintah berikut
+
+    yarn reg
+
+Untuk unregistrasi kartu silahkan jalankan perintah berikut
+
+    yarn unreg
+
 Semoga bermanfaat 🙏
