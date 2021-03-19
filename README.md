@@ -13,6 +13,7 @@ Pertama buat file `.env` yang isinya sebagai berikut:
     PHONE_NUMBER=nomorXLmu
     KK=nomorKartuKeluarga
     NIK=nomorKTP
+    USSD_CHECK_QUOTA=*123*7*1*1*2#
 
 Setelah itu jalankan perintah berikut
 
