@@ -26,9 +26,12 @@ const spinner = ora("Open XLHome").start();
   await page.type("#password", process.env.PASSWORD);
   await page.click("#pop_login");
 
-  spinner.text = "Input USSD code (*123*7*1*1*1#)";
+  spinner.text = `Input USSD code (${process.env.USSD_CHECK_QUOTA})`;
   await page.waitForSelector("#general_command_select_input");
-  await page.type("#general_command_select_input", "*123*7*1*1*1#");
+  await page.type(
+    "#general_command_select_input",
+    process.env.USSD_CHECK_QUOTA
+  );
 
   spinner.text = "Submitting...";
   await page.click("#general_btn");
